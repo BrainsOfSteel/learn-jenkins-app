@@ -32,8 +32,6 @@ pipeline {
 
             steps {
                 sh '''
-                    rm -rf node_modules
-                    npm install react-scripts --save-dev
                     npm test
                 '''
             }
